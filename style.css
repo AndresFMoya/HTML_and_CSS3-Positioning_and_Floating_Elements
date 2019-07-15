@@ -1,0 +1,90 @@
+
+
+. { 
+    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+}
+
+.title-section {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    flex-direction: column;
+}
+
+.articletitle {
+    font-size: 40px;
+    max-width: 30%;
+    font-style: italic;
+    font: Georgia;
+}
+
+.title-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-title {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:auto;
+}
+
+.img-title img {
+    width:90%;
+    height:auto;
+}
+
+.label-image {
+    height:auto;
+    width: 90%; 
+    margin-top: 7px;
+}
+
+.label-image .text-label {
+    width: 75%;
+    font-size: 15px;
+    color: #666666
+}
+
+.article-text {
+    font-size: 20px;
+    color: #333333;
+    margin: auto;
+    width:40%;
+}
+
+.article-writer {
+    font-size: 15px;
+    color: #333333;
+    margin: auto;
+    width:40%;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.article-writer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #333333;
+}
+
+.social-media {
+    margin-top:0;
+    font-size: 14px;
+    font:helvetica;
+    color: #333333;
+    margin: auto;
+    width:40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.social-icon {
+    width: 30px;
+    height: auto;
+}
