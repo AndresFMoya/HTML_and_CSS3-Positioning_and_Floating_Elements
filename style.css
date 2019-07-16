@@ -8,9 +8,10 @@
 
 .articletitle {
     font-size: 40px;
-    max-width: 30%;
+    max-width: 50%;
     font-style: italic;
     font: Georgia;
+    margin-left: -150px;
 }
 
 .title-image {
@@ -96,7 +97,7 @@
 }
 
 .imagefloat {
-    position: relative;
+    /* position: relative; */
     margin: auto;
     width: 70%;
     text-align: justify;
@@ -187,8 +188,8 @@
 }
 
 .img-credit {
-    position: absolute;
-    left: 15%;
+    /* position: absolute; */
+    margin-left: 15%;
     margin-top: 30px;
     margin-bottom: 30px;
 
@@ -386,10 +387,13 @@
 .bottomnavigation {
 width: 70%;
 margin: auto;
+border-top: 2px double #999999;
 }
+
 
 .bottomnavigation img {
     width: 200px;
+    margin-bottom: 10px;
 }
 
 .bottomnavigation .tablist {
@@ -448,4 +452,35 @@ margin: auto;
     text-decoration:none;
     color:#6288A5;
     font-size:11px;
+}
+header button {
+        background-color: #6288A5;
+        color: white;
+        border-radius: 3px;
+        font-size: 11px;
+        height: 35px;
+        font-weight: bold;
+        margin-top:5px;
+}
+header img {
+    margin-top: 5px;
+    width: 200px;
+}
+header h3 {
+    font-size: 14.25px;
+}
+
+header{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    border-bottom: 1px solid #999999;
+    overflow: hidden;
+    background-color:white;
+    width: 100%;
+    
+}
+main{
+    padding-top:70px;
 }
