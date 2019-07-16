@@ -282,10 +282,12 @@
     width: 70%;
     padding: 0;
     margin-right:20px;
+
 }
 
 .righteditorsection {
     width: 30%;
+    border-top:2px solid #333333;
 }
 
 .uppersection {
@@ -294,6 +296,8 @@
     justify-content: space-between;
     padding-top: 0px;
     margin-top:-20px;
+
+
 }
 
 .uppersection a {
@@ -312,13 +316,15 @@
 .image-editorsection figcaption {
     padding-bottom: 4px;
     font-size: 10px;
-    margin: 0px -68px 0px;
+    margin-right:-33px;
     text-align: right;
 }
 
 .image-editorsection img {
-    width: 190%;
+    min-width:205px ;
+    width: 100%;
     margin-left: -40px;
+ 
 }
 
 .label-image-editorsection {
@@ -346,4 +352,9 @@
     color: #000000;
     font-size: 16px;
 }
+
+.moreinspace {
+    border-top:2px solid #333333;
+}
+
 
