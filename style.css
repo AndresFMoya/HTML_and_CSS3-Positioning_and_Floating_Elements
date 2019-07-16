@@ -1,7 +1,3 @@
-. {
-    font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
-}
-
 .title-section {
     display: flex;
     justify-content: center;
@@ -255,76 +251,99 @@
     justify-content: space-between;
     width: 40%;
     margin: auto;
-    margin-top:35px;
+    margin-top: 35px;
     align-items: center;
 }
 
 .commentsandsocial li {
-    display:inline;
+    display: inline;
     margin-left: 10px;
 }
 
 .commentsandsocial button {
-background-color: #6288A5;
-color: white;
-border-radius: 5%;
-font-size:13px;
-width:330px;
-height:30px;
-font-weight: bold;
+    background-color: #6288A5;
+    color: white;
+    border-radius: 5%;
+    font-size: 13px;
+    width: 330px;
+    height: 30px;
+    font-weight: bold;
 }
 
 .editorsection {
-    display:flex;
-    width:70%;
-    margin:auto;
+    display: flex;
+    width: 70%;
+    margin: auto;
 }
 
 .lefteditorsection {
-    width:70%;
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
+    width: 70%;
+    padding: 0;
+    margin-right:20px;
 }
 
 .righteditorsection {
-    width:30%;
-
+    width: 30%;
 }
 
-.moreinspace a {
+.uppersection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 0px;
+    margin-top:-20px;
+}
+
+.uppersection a {
     text-decoration: none;
     font-size: 16px;
     color: #000000;
 }
 
-.moreinspace img {
-    width: 140%;
-    height: auto;
-    margin-right: 30px;
+.image-editorsection {
+    width: 200px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 20px;
 }
 
-.moreinspace h2 {
-    font-size:1rem;
-    margin-left: 16%;
+.image-editorsection figcaption {
+    padding-bottom: 4px;
+    font-size: 10px;
+    margin: 0px -68px 0px;
+    text-align: right;
 }
 
-.uppersection {
-    display:flex;
-    width:100%;
-    justify-content: flex-start;
+.image-editorsection img {
+    width: 190%;
+    margin-left: -40px;
+}
+
+.label-image-editorsection {
+    text-align: left;
+}
+
+.label-image-editorsection h2 {
+    text-align: left;
+    font-size: 18px;
+}
+
+.label-image-editorsection time {
+    font-size: 0.75rem;
+    text-align: left;
 }
 
 .bottomsection {
-    display:flex;
+    display: flex;
     justify-content: flex-start;
-    width:100%;
+    width: 100%;
 }
 
-.moreinspace figcaption {
-    font-size:10px;
-    color: #999999;
+.moreinspace a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
 }
 
-.labelitem {
-    margin-top: 0;
-}
