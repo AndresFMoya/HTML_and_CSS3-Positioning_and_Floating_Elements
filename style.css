@@ -10,7 +10,7 @@
     font-size: 40px;
     max-width: 50%;
     font-style: italic;
-    font: Georgia;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: -150px;
 }
 
@@ -76,7 +76,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 14px;
-    font: helvetica;
+    font-family:Helvetica, sans-serif;
     color: #333333;
     margin: auto;
     width: 40%;
@@ -283,6 +283,7 @@
     width: 70%;
     padding: 0;
     margin-right:20px;
+    
 
 }
 
@@ -297,6 +298,7 @@
     justify-content: space-between;
     padding-top: 0px;
     margin-top:-20px;
+    border-bottom:2px solid #333333;
 
 
 }
