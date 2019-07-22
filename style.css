@@ -273,6 +273,12 @@ header button {
   font-size: 11px;
 }
 
+.css-1iruc8t a {
+  font-size: 16px !important;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
 .righteditorsection {
   width: 30%;
   border-top: 2px solid #333;
@@ -358,6 +364,13 @@ header button {
   border-top: 1px solid #e2e2e2;
 }
 
+.bottomlistsection a {
+  text-decoration: none;
+  font-size: 12px;
+  text-transform: capitalize;
+  color: black;
+}
+
 .righteditorsection li a {
   font-size: 18px;
   color: #121212;
@@ -395,6 +408,13 @@ header button {
   width: 80%;
   padding-right: 60px;
   border-right: 1px solid #666;
+}
+
+.bottomlistsection ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .bottomnavigation .tablist ul {
@@ -450,7 +470,6 @@ header button {
   display: flex;
 }
 
-
 .subscription-section {
   width: 20%;
 }
@@ -459,36 +478,15 @@ header button {
   display: flex;
 }
 
-.bottomlistsection ul {
-list-style: none;
-display: flex;
-flex-direction: column;
-align-items: flex-start;
+.subscription-section h3 {
+  margin: 0;
+  margin-left: 39px;
+  color: rgb(51, 51, 51);
+  font: 13px;
 }
 
-.bottomlistsection a {
-  text-decoration: none;
-  font-size: 12px;
-  text-transform: capitalize;
-  color: black;
-  }
-
-  .subscription-section h3 {
-    margin:0;
-    margin-left: 39px;
-    color: rgb(51, 51, 51);
-    font: 13px;
-  }
-
-  .css-1iruc8t a {
-    font-size:16px !important; 
-    font-weight: 700;
-    line-height: 1.5;
-  }
-
-  .css-1vhk1kss {
-    border-top: 1px solid #666;
-    padding-right: 50px;
-    padding-top: 10px;
-  }
-
+.css-1vhk1kss {
+  border-top: 1px solid #666;
+  padding-right: 50px;
+  padding-top: 10px;
+}
