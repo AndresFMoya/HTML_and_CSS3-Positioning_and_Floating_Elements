@@ -373,7 +373,7 @@ header button {
 .bottomnavigation .tablist {
   display: flex;
   justify-content: space-between;
-  width: 75%;
+  width: 70%;
 }
 
 .bottomnavigation .tablist ul {
@@ -439,5 +439,18 @@ main {
 }
 
 .top-left-part {
+  display: flex;
+}
+
+
+.subscription-section {
+  width: 30%
+}
+
+.subscription-section  {
+  width: 30%
+}
+
+.bottomlistsection {
   display: flex;
 }
