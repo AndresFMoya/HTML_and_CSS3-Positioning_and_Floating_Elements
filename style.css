@@ -1,3 +1,22 @@
+header h3 {
+  font-size: 14.25px;
+}
+
+nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  border-bottom: 1px solid #999;
+  overflow: hidden;
+  background-color: #fff;
+  width: 100%;
+}
+
+main {
+  padding-top: 70px;
+}
+
 .title-section {
   display: flex;
   justify-content: center;
@@ -373,7 +392,9 @@ header button {
 .bottomnavigation .tablist {
   display: flex;
   justify-content: space-between;
-  width: 70%;
+  width: 80%;
+  padding-right: 60px;
+  border-right: 1px solid #666;
 }
 
 .bottomnavigation .tablist ul {
@@ -403,28 +424,15 @@ header button {
 }
 
 .contentinfo {
-  width: 60%;
+  display: flex;
+  width: 70%;
   margin: auto;
+  justify-content: center;
   border-top: 1px solid #e2e2e2;
 }
 
-header h3 {
-  font-size: 14.25px;
-}
-
-nav {
-  position: fixed;
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  border-bottom: 1px solid #999;
-  overflow: hidden;
-  background-color: #fff;
+.navcontentinfo {
   width: 100%;
-}
-
-main {
-  padding-top: 70px;
 }
 
 .icons img {
@@ -444,13 +452,43 @@ main {
 
 
 .subscription-section {
-  width: 30%
-}
-
-.subscription-section  {
-  width: 30%
+  width: 20%;
 }
 
 .bottomlistsection {
   display: flex;
 }
+
+.bottomlistsection ul {
+list-style: none;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+.bottomlistsection a {
+  text-decoration: none;
+  font-size: 12px;
+  text-transform: capitalize;
+  color: black;
+  }
+
+  .subscription-section h3 {
+    margin:0;
+    margin-left: 39px;
+    color: rgb(51, 51, 51);
+    font: 13px;
+  }
+
+  .css-1iruc8t a {
+    font-size:16px !important; 
+    font-weight: 700;
+    line-height: 1.5;
+  }
+
+  .css-1vhk1kss {
+    border-top: 1px solid #666;
+    padding-right: 50px;
+    padding-top: 10px;
+  }
+
