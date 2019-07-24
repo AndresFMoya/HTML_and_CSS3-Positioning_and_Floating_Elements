@@ -1,5 +1,5 @@
 # Positioning_and_Floating_Elementss
-This project consists of making a clone of a New York Times article page. By this point, the student should be familiar with the concepts of:
+This project consists of making a clone of a New York Times article page. 
 
 # Authors
 
